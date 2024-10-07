@@ -67,6 +67,8 @@ public class Cooking : BaseUnityPlugin
 		cooking.Description.English("Increases health, stamina and health regen for food you cook.");
 		cooking.Name.German("Kochen");
 		cooking.Description.German("Erhöht die Lebenspunkte, Ausdauer und Lebenspunkteregeneration für von dir gekochtes Essen.");
+  		cooking.Name.Chinese("烹饪");
+		cooking.Description.Chinese("提高由你烹饪的食物的生命、耐力和生命恢复效果");
 		cooking.Configurable = false;
 
 		serverConfigLocked = config("1 - General", "Lock Configuration", Toggle.On, "If on, the configuration is locked and can be changed by server admins only.");
